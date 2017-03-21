@@ -1,0 +1,159 @@
+@font-face {
+    font-family: 'helveticaneuecyrlight';
+    src: url('fonts/helveticaneuecyr-light-webfont.eot');
+    src: url('fonts/helveticaneuecyr-light-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/helveticaneuecyr-light-webfont.woff2') format('woff2'), url('fonts/helveticaneuecyr-light-webfont.woff') format('woff'), url('fonts/helveticaneuecyr-light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: url(background.jpg);
+    background-size: cover;
+    font-family: 'helveticaneuecyrlight', Arial, sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 100%;
+    background: url(header-fon.jpg);
+}
+
+ul {
+    list-style: none;
+    -webkit-padding-start: 0;
+    margin: 0;
+    margin-right: 20px;
+    float: right;
+}
+
+li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.menu-left {
+    border-right: 1px solid #4eabda;
+}
+
+.fg {
+    background: url(flag.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+    padding-left: 30px;
+}
+
+.menu-left a {
+    text-decoration: none;
+    padding: 7px;
+    color: #60b5ed;
+}
+
+.menu-right a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 7px;
+}
+
+.menu-left a:hover {
+    color: #ffffff;
+    background-color: #4eabda;
+}
+
+.menu-right a:hover {
+    color: #ffffff;
+    background-image: url(hover.jpg);
+}
+
+form {
+    display: table;
+    width: 516px;
+    height: 620px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: auto;
+    text-align: center;
+}
+
+.textarea {
+    background: rgb(0, 0, 0);
+    border: none;
+    border-bottom: 1px solid #484847;
+    height: 35px;
+    width: 275px;
+    padding-left: 10px;
+    font-size: 11px;
+    margin: 10px;
+}
+
+input::-webkit-input-placeholder {
+    color: #999;
+}
+
+input:focus::-webkit-input-placeholder {
+    color: #fff;
+}
+
+input:focus {
+    margin: none;
+    outline: none;
+    border-bottom: 0;
+    background-color: #1b5288;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+    box-shadow: 0px 0px 18px 5px rgba(80, 139, 179, 1)
+}
+
+form a {
+    background-image: url(fb.png);
+    width: 275px;
+    height: 35px;
+    margin: 0 auto;
+}
+
+p.h1 {
+    color: #ffffff;
+    position: relative;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 24px;
+    border-bottom: 1px solid #ffffff;
+}
+
+form img {
+    width: 270px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+button {
+    width: 150px;
+    background-image: url(account.png);
+    color: #fff;
+    border: none;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.label {
+    style: none;
+    color: #cccccc;
+    font-size: 12px;
+    margin: 10px auto;
+}
+
+p {
+    font-size: 11px;
+    color: #becfbf;
+    text-align: center;
+    width: 270px;
+    margin: auto;
+    margin-top: 15px;
+}
