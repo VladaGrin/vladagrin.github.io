@@ -11,7 +11,7 @@
 
 .box {
     width: 1060px;
-    height: 960px;
+    height: auto;
     background-color: white;
     margin-left: 154px;
 }
@@ -66,15 +66,15 @@ a {
 
 .left-menu li {
     display: block;
-    border-top: 2px solid #e5e5e5;
-    border-left: 2px solid #e5e5e5;
-    border-right: 2px solid #e5e5e5;
+    border-top: 1px solid #e5e5e5;
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
     margin-right: 60px;
     margin-left: 40px;
 }
 
 .left-menu li:last-child {
-    border-bottom: 2px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
 }
 
 .left-menu a {
@@ -90,6 +90,7 @@ a {
 
 .left-menu a:hover {
     background-color: #f9f9f9;
+    color:#2c2c2c;
     padding-left: 40px;
 }
 
